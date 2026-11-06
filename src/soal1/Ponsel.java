@@ -25,8 +25,9 @@ public class Ponsel extends Perangkat {
         this.jumlahKamera = jumlahKamera;
     }
     /**    
+     * Menghasilkan informasi detail mengenai ponsel.
      * 
-     * 
+     * @return string informasi kapasitas memori dan jumlah lensa kamera
      */
     @Override
     public String infoSingkat(){

@@ -66,6 +66,19 @@ cd src/soal1
 javac *.java
 java TesSoal1
 ```
+## Contoh Output
+- **Soal 1**
+  <img width="981" height="184" alt="image" src="https://github.com/user-attachments/assets/6668a2e6-1b49-400a-96ef-a1351b05a44f" />
+
+- **Soal 2**
+  <img width="970" height="433" alt="image" src="https://github.com/user-attachments/assets/073d7a74-cf32-4d99-8d22-7d8e20f3bcb0" />
+
+- **Soal 3**
+  <img width="973" height="104" alt="image" src="https://github.com/user-attachments/assets/c8bdd79f-42a7-4887-baa2-86e65ac88585" />
+
+- **Soal 4**
+  <img width="972" height="176" alt="image" src="https://github.com/user-attachments/assets/4bf6851b-1492-4c3c-95ed-7995ba865641" />
+
 ## Jawaban Soal dan Analisis Konsep
 ### Jawaban Soal 1
 Jika modifier variabel harga pada superclass Perangkat diubah menjadi private, maka akan memicu error saat tahap kompilasi (Compile-time error) pada kelas Laptop yang berbunyi harga has private access in Perangkat. Error ini terjadi karena sifat dari modifier private yang membatasi akses variabel agar hanya dikenali di dalam kelas tempat ia dideklarasikan (enkapsulasi ketat). Subclass Laptop tidak memiliki izin akses langsung ke dalam privasi superclass-nya.

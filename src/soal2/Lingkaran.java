@@ -1,16 +1,35 @@
 package soal2;
 
-public class Lingkaran{
-    protected double jariJari;
-    
+/**
+ * Merepresentasikan bangun datar lingkaran.
+ */
+public class Lingkaran {
+    private double jariJari;
+
+    /**
+     * Membuat objek Lingkaran dengan jari-jari tertentu.
+     *
+     * @param jariJari nilai jari-jari lingkaran
+     */
     public Lingkaran(double jariJari) {
         this.jariJari = jariJari;
     }
-    public double Luas() {
-        return Math.PI * (2 * this.jariJari);
+
+    /**
+     * Menghitung luas lingkaran berdasarkan jari-jarinya.
+     *
+     * @return luas lingkaran
+     */
+    public double luas() {
+        return Math.PI * jariJari * jariJari;
     }
-    public double Keliling() {
-        return 2 * Math.PI * this.jariJari;
+
+    /**
+     * Menghitung keliling lingkaran berdasarkan jari-jarinya.
+     *
+     * @return keliling lingkaran
+     */
+    public double keliling() {
+        return 2 * Math.PI * jariJari;
     }
 }
-    

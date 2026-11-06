@@ -1,14 +1,24 @@
 package soal2;
 
-class B extends A { 
-    int nilai = 5; 
-    B() {
-    super();
-    System.out.println("Bdibuat, nilai=" + nilai);
+/**
+ * Turunan dari kelas A untuk menunjukkan efek overriding pada siklus constructor.
+ */
+public class B extends A {
+    private int nilai = 5;
+
+    /**
+     * Constructor kelas B.
+     */
+    public B() {
+        super();
+        System.out.println("B dibuat, nilai=" + nilai);
     }
+
+    /**
+     * Meng-override method init() dari kelas A.
+     */
     @Override
-    void init() { 
-        System.out.println("init B, nilai=" + nilai); 
+    public void init() {
+        System.out.println("init B, nilai=" + nilai);
     }
 }
-// di main: new B();

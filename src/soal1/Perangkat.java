@@ -68,7 +68,4 @@ public class Perangkat {
     public int getGaransiBulan(){
         return garansiBulan;
     }
-    public void setGaransiBulan(int garansiBulan){
-        this.garansiBulan = garansiBulan;
-    }
 }
